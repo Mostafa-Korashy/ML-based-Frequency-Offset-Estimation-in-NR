@@ -1,4 +1,4 @@
-# ML-based-Frequency-Offset-Estimation-in-NR
+# ML-based Carrier-Frequency Offset Estimation in NR
 
 This repo is for the dataset presented in the paper 
 
