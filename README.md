@@ -5,7 +5,7 @@ Carrier frequency offset (CFO) arises from the intrinsic mismatch between the os
 
 ## Dataset Description
 
-<img src="/Mostafa-Korashy/ML-based-Frequency-Offset-Estimation-in-NR/raw/main/DataPoint.png" alt="The structure of a data point" style="max-width: 100%;" width=“500”>
+<img src="/Mostafa-Korashy/ML-based-Frequency-Offset-Estimation-in-NR/raw/main/DataPoint.png" alt="The structure of a data point" width=“500”>
 
 
 It is of crucial importance to have a large and well-annotated dataset to build any predictive model. Although being at the heart of any communication system, this standardized publicly available dataset is not available for the problem of CFO estimation. This dataset is presented here in order to stimulate further studies in this area. We built a dataset to cover a wide range of SNRs, namely, from $SNR=-10$ db to $SNR=10$ db with a step of $2$ db. For each SNR $\in (-10, -8, \dots, 10)$, we generated uniformly distributed frequency offsets (FO). We generated a file for each SNR separately. This facilitates designing a model for each SNR value. A larger collection of randomly generated FO with different SNR values has been also  generated that could be used for training a universal model that predicts the FO for any SNR value. The data has been formatted as comma-separated values (CSV) files. 
